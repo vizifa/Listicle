@@ -1,0 +1,137 @@
+
+body, p{
+    margin: 0 auto;
+}
+
+.background{
+    background-image: linear-gradient(rgba(0, 0, 0, .3),
+rgba(0, 0, 0, .3)), url('images/bg_img.png');
+    height: 500px;
+    width: auto;
+    /* Parallax Effect */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:  cover;
+    background-position: center;
+    display: flex;
+}
+
+.heading{
+    text-align: center;
+    color: white;
+    font-size: 36px;
+    padding-top: 100px;
+    margin: auto;
+    font-weight: normal;
+    animation: transitionIn 3s;
+    font-family: 'Roboto Slab', 'serif';
+}
+
+@keyframes transitionIn {
+
+    from{
+        opacity: 0;
+        transform: rotateX(-10deg);
+    }
+    to{
+        opacity: 1;
+        transform: rotateX(0);
+    }
+}
+
+.instructor{
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    color: white;
+    margin: auto;
+    margin-top: -50px;
+}
+
+.profile_img{
+    width: 100%;
+    border-radius: 100%;
+    border: 1px solid white;
+}
+
+
+.profile_text{
+    font-family: 'Source Sans Pro',sans-serif;
+    font-size: 18px;
+    color: rgb(51,51,51);
+    line-height: 24px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.profile_text hr{
+    text-align: center;
+    margin: 10px auto;
+    border: 2px, solid;
+    width: 130px;
+    color: #e6e6e6;
+}
+
+
+.labs{
+    margin: 60px auto;
+    width: 66.67%;
+    text-align: left;
+    display: flex;
+}
+
+.heading_labs{
+    font-family: 'Roboto Slab',serif;
+    font-size: 36px;
+    font-weight: bold;
+    color: rgb(51, 51, 51);
+}
+
+
+.heading_labs:hover {
+    text-decoration: underline;
+}
+
+.lab_image{
+    width: 100%;
+}
+
+
+.number_list{
+    font-size: 36px;
+    color: rgba(0,0,0,0.25);
+    padding-right: 40px;
+    float: left;
+}
+
+.address{
+    color: #42b4d6;
+    text-decoration: none;
+}
+
+.address:hover {
+    text-decoration: underline;
+}
+
+.lab_content{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'Source Sans Pro',sans-serif;
+    font-size: 18px;
+    line-height: 32px;
+    color: rgb(51,51,51);
+}
+
+
+.content{
+    float: left;
+}
+
+
+
+.lab_image{
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+
+
